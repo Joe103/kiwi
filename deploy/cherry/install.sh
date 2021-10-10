@@ -2,8 +2,8 @@
 
 TARGET="latest"
 
-if [ $# -ge 2 ]; then
-        TARGET=$2
+if [ $# -ge 1 ]; then
+        TARGET=$1
 fi
 
 URL="https://boin-cherry.oss-cn-shenzhen.aliyuncs.com/cherry_${TARGET}.tar.gz"
